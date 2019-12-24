@@ -10,4 +10,4 @@ include LICENSE.txt
 recursive-include data *
 
 # Include regexes
-include truffleHog/regexes.json
+include truffleHog/*.json

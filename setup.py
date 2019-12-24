@@ -12,6 +12,7 @@ setup(
     author_email="dxa4481@rit.edu",
     license="GNU",
     packages=find_packages(),
+    include_package_data=True,
     install_requires=requirements,
     entry_points={"console_scripts": ["trufflehog = truffleHog.interface:main"]},
 )

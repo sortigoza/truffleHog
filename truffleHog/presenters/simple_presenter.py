@@ -6,7 +6,8 @@ def simple_presenter(commits):
     for commit in commits:
         print(
             colored(
-                f"branch={commit.branch} commit={commit.commit} commit_time={commit.commit_time} diff_hash={commit.diff_hash}",
+                f"branch={commit.branch} commit={commit.commit} commit_time={commit.commit_time} "
+                f"diff_hash={commit.diff_hash}",
                 "yellow",
             )
         )
